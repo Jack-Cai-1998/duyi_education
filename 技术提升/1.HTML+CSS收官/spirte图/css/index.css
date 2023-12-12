@@ -1,0 +1,14 @@
+.spirte{
+    width: 37px;
+    height: 37px;
+    /* outline: 1px solid black; */
+    background: url(../images/OIP.jpg) no-repeat;
+    background-position: -69px -35px;
+}
+.spirteTwo{
+    width: 37px;
+    height: 37px;
+    /* outline: 1px solid black; */
+    background: url(../images/OIP.jpg) no-repeat;
+    background-position: -104px -69px;
+}
