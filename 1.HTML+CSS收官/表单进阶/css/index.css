@@ -20,6 +20,7 @@ html{
 }
 .form-item{
     margin-bottom: 10px;
+    font-size: 14px;
 }
 /* 搞定文本框统一样式 */
 .txt{
@@ -30,7 +31,7 @@ html{
     border-radius: 5px;
     font-size: 14px;
     padding: 0 10px;
-    text-indent: 10px;
+    /* text-indent: 10px; */
 }
 /* 搞定文本框聚焦的时候样式 */
 .txt:focus{
@@ -86,9 +87,6 @@ button:disabled{
 }
 .title{
     margin-right: 10px;
-}
-.policy{
-    font-size: 14px;
 }
 .policy span{
     vertical-align: 2px;
