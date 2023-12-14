@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page{
+    width: 100%;
+}
+.model{
+    position: fixed;
+    outline: 1px solid red;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 5;
+}
+.login{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -100px;
+}
+.cat{
+    position: fixed;
+    right: 0;
+    top: 50%;
+    width: 165px;
+    height: 250px;
+    margin-top: -125px;
+    background: url(../assets/10851702465267_.pic.jpg) no-repeat;
+    padding-top: 145px;
+    text-align: right; 
+    z-index: 1;
+    /* 图片也是个行盒，也可以通过text-align来居中 */
+}
+.qrcode{
+    width: 100px;
+    height: 100px;
+}
