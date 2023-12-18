@@ -99,11 +99,7 @@ label input:checked~span{
     color: #333;
 }
 
-/* 还有一个伪类 */
-input::placeholder{
-    /* color: red; */
-    /* font-size: 14px; */
-}
+
 /* 
     1.在开始写css之前要准备什么？
     2.text-align是怎么用的？

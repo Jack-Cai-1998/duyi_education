@@ -1,0 +1,46 @@
+/* 统一样式 */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff6700;
+}
+html{
+    min-width: 1226px;
+    color: #333;
+    font: 14px/1.5 'Helvetica Neue', Helvetica, Arial, 'Microsoft Yahei',
+    'Hiragino Sans GB', 'Heiti SC', 'WenQuanYi Micro Hei', sans-serif;
+}
+/* 浮动样式 */
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix::after{
+    display: block;
+    content: '';
+    clear: both;
+}
+/* 统一容器样式 */
+.container{
+    width: 1226px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* 字体图标 */
+/* 1. 在页面所有样式之前引入一个CSS
+
+   https://at.alicdn.com/t/font_2960521_rqz39d8moo.css
+
+2. 打开「字体图标.html」找到自己想使用的图标，复制它对应的类样式
+
+3. 设置任何一个元素的类样式为：iconfont + 对应的图标类样式 即可 */
